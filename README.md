@@ -19,4 +19,12 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/absaw/Leetcode/tree/master/0206-reverse-linked-list) |
+## Hash Table
+|  |
+| ------- |
+| [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
+## String
+|  |
+| ------- |
+| [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 <!---LeetCode Topics End-->
