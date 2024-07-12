@@ -10,6 +10,7 @@ Leetcode Submissions
 ## Bit Manipulation
 |  |
 | ------- |
+| [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 ## Linked List
 |  |
@@ -43,4 +44,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
