@@ -11,6 +11,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 ## Linked List
 |  |
@@ -24,6 +25,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## String
 |  |
 | ------- |
@@ -40,6 +42,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## Binary Tree
 |  |
 | ------- |
@@ -48,4 +51,16 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
+## Array
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
