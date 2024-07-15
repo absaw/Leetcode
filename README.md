@@ -54,6 +54,7 @@ Leetcode Submissions
 ## Array
 |  |
 | ------- |
+| [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -62,5 +63,6 @@ Leetcode Submissions
 ## Sorting
 |  |
 | ------- |
+| [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
