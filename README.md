@@ -42,6 +42,7 @@ Leetcode Submissions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/absaw/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Leetcode Submissions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/absaw/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -71,6 +73,7 @@ Leetcode Submissions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/absaw/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -97,4 +100,5 @@ Leetcode Submissions
 | [0104-maximum-depth-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/absaw/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/absaw/Leetcode/tree/master/0226-invert-binary-tree) |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 <!---LeetCode Topics End-->
