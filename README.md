@@ -20,6 +20,7 @@ Leetcode Submissions
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/absaw/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Hash Table
 |  |
@@ -90,6 +91,7 @@ Leetcode Submissions
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## Sorting
 |  |
