@@ -107,4 +107,8 @@ Leetcode Submissions
 | [0199-binary-tree-right-side-view](https://github.com/absaw/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/absaw/Leetcode/tree/master/0226-invert-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/absaw/Leetcode/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
