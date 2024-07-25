@@ -11,6 +11,7 @@ Leetcode Submissions
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
@@ -94,6 +95,7 @@ Leetcode Submissions
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
@@ -124,4 +126,8 @@ Leetcode Submissions
 | [0182-duplicate-emails](https://github.com/absaw/Leetcode/tree/master/0182-duplicate-emails) |
 | [0183-customers-who-never-order](https://github.com/absaw/Leetcode/tree/master/0183-customers-who-never-order) |
 | [0197-rising-temperature](https://github.com/absaw/Leetcode/tree/master/0197-rising-temperature) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
