@@ -96,6 +96,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
@@ -131,5 +132,6 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
