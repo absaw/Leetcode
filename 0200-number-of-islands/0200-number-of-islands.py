@@ -9,14 +9,11 @@ class Solution:
         visited = [ [0] * n for _ in range(m)]
         def bfs(r,c):
             q = deque()
-
             q.append([r,c])
             visited[r][c] = 1
             while q:
                 i, j = q.popleft()
                 visited[i][j] = 1
-                # print("visited ",i,j)
-
                 neighbors = [(i+1,j),
                                 (i-1,j),
                                 (i,j+1),
@@ -28,7 +25,7 @@ class Solution:
                         visited[n_r][n_c] == 0 and 
                         grid[n_r][n_c] =="1"):
                         q.append([n_r,n_c])
-                        visited[n_r][n_c] = 1
+                        visited[n_r][n_c] = 1 # This makes all the difference since we aren't visting each neighbor now. 
         for r in range(m):
             for c in range(n):
                 if visited[r][c] == 0 and grid[r][c] == "1":
