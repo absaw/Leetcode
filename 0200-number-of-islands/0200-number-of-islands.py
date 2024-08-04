@@ -1,41 +1,50 @@
+from collections import deque
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         
-        if not grid:
-            return 0
-        rows, cols = len(grid),len(grid[0])
-        islands = 0
-        # visited = [[0]*cols]*rows
-        visited = set()
-        # print(visited)
-        def bfs(r,c):
-            q = collections.deque()
-            q.append((r,c))
-            # visited[r][c] = 1
-            visited.add((r,c))
-            while(q):
-                nr,nc = q.popleft()
-                directions = [[0,1] , [1,0], [-1,0], [0,-1]]
-                for dr, dc in directions:
-                    neighbor_r = nr + dr
-                    neighbor_c = nc + dc
-                    # print(range(rows))
-                    if (neighbor_r in range(rows) and
-                        neighbor_c in range(cols) and
-                        grid[neighbor_r][neighbor_c] == "1" and
-                        (neighbor_r,neighbor_c) not in visited):
-                        # visited[neighbor_r][neighbor_c] == 0):
+        n_island = 0
+        m = len(grid)
+        n = len(grid[0])
 
-                        # visited[neighbor_r][neighbor_c] = 1
-                        visited.add((neighbor_r,neighbor_c))
+        visited = [ [0] * n for _ in range(m)]
 
-                        q.append((neighbor_r,neighbor_c))
+        for r in range(m):
+            for c in range(n):
+                # print("r,c =",r,c)
+                # print(visited[r][c],grid[r][c])
+                if visited[r][c] == 0 and grid[r][c] == "1":
+                    # print(visited)
+                    n_island += 1
+                    # print('Count> r,c =',r,c)
 
-        for r in range(rows):
-            for c in range(cols):
-                if grid[r][c] == "1" and (r,c) not in visited:
-                    # visited[r][c] = 1
-                    bfs(r,c)
-                    islands += 1
+                    #bfs traversal
+
+                    q = deque()
+
+                    q.append([r,c])
+                    visited[r][c] = 1
+                    while q:
+                        i, j = q.popleft()
+                        visited[i][j] = 1
+                        # print("visited ",i,j)
+
+                        neighbors = [(i+1,j),
+                                     (i-1,j),
+                                     (i,j+1),
+                                     (i,j-1)]
+                        
+                        for n_r,n_c in neighbors:
+                            if (n_r in range(m) and
+                                n_c in range(n) and
+                                visited[n_r][n_c] == 0 and 
+                                grid[n_r][n_c] =="1"):
+                                q.append([n_r,n_c])
+                                visited[n_r][n_c] = 1
+                        
+
+                elif visited[r][c] == 0 and grid[r][c] == "0":
+                    visited[r][c] = 1
+                    # print("visited ",r,c)
                 
-        return islands
+        
+        return n_island
