@@ -65,6 +65,7 @@ Leetcode Submissions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/absaw/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/absaw/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -105,6 +106,7 @@ Leetcode Submissions
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 ## Math
 |  |
 | ------- |
@@ -124,6 +126,7 @@ Leetcode Submissions
 | [0199-binary-tree-right-side-view](https://github.com/absaw/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/absaw/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Database
 |  |
@@ -144,8 +147,10 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
