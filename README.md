@@ -110,6 +110,7 @@ Leetcode Submissions
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 ## Math
 |  |
 | ------- |
@@ -132,6 +133,7 @@ Leetcode Submissions
 | [0226-invert-binary-tree](https://github.com/absaw/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Database
 |  |
@@ -159,6 +161,7 @@ Leetcode Submissions
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 ## Graph
 |  |
 | ------- |
