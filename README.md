@@ -32,10 +32,12 @@ Leetcode Submissions
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 ## String
 |  |
 | ------- |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 ## Tree
 |  |
 | ------- |
@@ -170,4 +172,12 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
+## Two Pointers
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
