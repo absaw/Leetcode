@@ -36,6 +36,7 @@ Leetcode Submissions
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 ## String
 |  |
@@ -45,6 +46,7 @@ Leetcode Submissions
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/absaw/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
+| [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 ## Tree
@@ -218,4 +220,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/absaw/Leetcode/tree/master/0014-longest-common-prefix) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
