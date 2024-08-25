@@ -32,6 +32,7 @@ Leetcode Submissions
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
@@ -43,6 +44,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/absaw/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/absaw/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -142,6 +144,7 @@ Leetcode Submissions
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## Sorting
