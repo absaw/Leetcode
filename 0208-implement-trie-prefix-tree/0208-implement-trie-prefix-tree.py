@@ -13,11 +13,9 @@ class Trie:
         # word="apple"
         node = self.head
         for c in word:
-            if c in node.children:
-                node = node.children[c]
-            else:
+            if c not in node.children:
                 node.children[c] = TrieNode()
-                node = node.children[c]
+            node = node.children[c]
         node.LastWord = True
 
     def search(self, word: str) -> bool:
@@ -27,9 +25,10 @@ class Trie:
                 searchHead = searchHead.children[c]
             else:
                 return False
-        if searchHead.LastWord:
-            return True
-        return False
+        return searchHead.LastWord
+        # if searchHead.LastWord:
+        #     return True
+        # return False
 
     def startsWith(self, prefix: str) -> bool:
         searchHead = self.head
