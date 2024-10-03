@@ -42,6 +42,7 @@ Leetcode Submissions
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 ## String
@@ -131,6 +132,7 @@ Leetcode Submissions
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0190-reverse-bits](https://github.com/absaw/Leetcode/tree/master/0190-reverse-bits) |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Array
 |  |
 | ------- |
@@ -150,6 +152,7 @@ Leetcode Submissions
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
@@ -167,6 +170,7 @@ Leetcode Submissions
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -247,6 +251,7 @@ Leetcode Submissions
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 ## Stack
 |  |
@@ -261,4 +266,16 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
