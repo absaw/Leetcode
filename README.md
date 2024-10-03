@@ -45,6 +45,7 @@ Leetcode Submissions
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
+| [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 ## String
 |  |
 | ------- |
@@ -156,6 +157,7 @@ Leetcode Submissions
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
+| [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 ## Math
 |  |
 | ------- |
@@ -278,4 +280,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
+## Prefix Sum
+|  |
+| ------- |
+| [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 <!---LeetCode Topics End-->
