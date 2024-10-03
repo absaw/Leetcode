@@ -7,6 +7,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/absaw/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/absaw/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/absaw/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -154,6 +155,7 @@ Leetcode Submissions
 | ------- |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 ## Sorting
 |  |
@@ -251,4 +253,8 @@ Leetcode Submissions
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/absaw/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
