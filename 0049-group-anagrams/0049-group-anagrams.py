@@ -1,18 +1,17 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-        anagram_set = set()
-        anagram_dict = {}
+        hm=defaultdict(list)
 
-        for word in strs:
+        for s in strs:
 
-            sorted_word = tuple(sorted(word))
-            # print(sorted_word)
-            if sorted_word not in anagram_set:
-                anagram_set.add(sorted_word)
-                anagram_dict[sorted_word] = [word]
+            c=[0] * 26
 
-            else:
-                anagram_dict[sorted_word].append(word)
+            for char in s:
+                i=ord(char)-ord("a")
+                print(i)
+                c[i]+=1
+            
+            hm[tuple(c)].append(s)
         
-        return anagram_dict.values()
+        return hm.values()
