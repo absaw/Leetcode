@@ -34,6 +34,7 @@ Leetcode Submissions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/absaw/Leetcode/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -139,6 +140,7 @@ Leetcode Submissions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/absaw/Leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/absaw/Leetcode/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
