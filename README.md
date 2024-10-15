@@ -56,6 +56,7 @@ Leetcode Submissions
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/absaw/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/absaw/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/absaw/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -266,6 +267,7 @@ Leetcode Submissions
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/absaw/Leetcode/tree/master/0020-valid-parentheses) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Design
 |  |
