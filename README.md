@@ -72,6 +72,7 @@ Leetcode Submissions
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/absaw/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/absaw/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/absaw/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -91,6 +92,7 @@ Leetcode Submissions
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/absaw/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/absaw/Leetcode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/absaw/Leetcode/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -119,6 +121,7 @@ Leetcode Submissions
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/absaw/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/absaw/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/absaw/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -186,6 +189,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/absaw/Leetcode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/absaw/Leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/absaw/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
