@@ -61,6 +61,7 @@ Leetcode Submissions
 | [0020-valid-parentheses](https://github.com/absaw/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/absaw/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -158,6 +159,7 @@ Leetcode Submissions
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/absaw/Leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -222,6 +224,7 @@ Leetcode Submissions
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/absaw/Leetcode/tree/master/0090-subsets-ii) |
 ## Union Find
 |  |
@@ -231,6 +234,7 @@ Leetcode Submissions
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
