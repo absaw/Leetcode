@@ -15,16 +15,15 @@ class Solution:
             node = node.next
         
         k = k % n
-        # print(k)
-        p1 = p2 = head
-        ctr = 0
         if k == 0:
             return head
-        while ctr <(k):
+        
+        p1 = p2 = head
+        ctr = 0
+        while ctr <k:
             p2 = p2.next
             ctr += 1
-        # print(ctr)
-        # print(k)
+     
         while p2.next:
             p1 = p1.next
             p2 = p2.next
