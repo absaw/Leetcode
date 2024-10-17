@@ -158,6 +158,7 @@ Leetcode Submissions
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -188,6 +189,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/absaw/Leetcode/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
