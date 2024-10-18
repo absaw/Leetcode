@@ -27,6 +27,7 @@ Leetcode Submissions
 | [0002-add-two-numbers](https://github.com/absaw/Leetcode/tree/master/0002-add-two-numbers) |
 | [0061-rotate-list](https://github.com/absaw/Leetcode/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/absaw/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -43,6 +44,7 @@ Leetcode Submissions
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
+| [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/absaw/Leetcode/tree/master/0242-valid-anagram) |
@@ -294,6 +296,7 @@ Leetcode Submissions
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/absaw/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Memoization
@@ -317,4 +320,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
