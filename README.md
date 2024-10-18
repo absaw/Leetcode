@@ -7,6 +7,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/absaw/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/absaw/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -163,6 +164,7 @@ Leetcode Submissions
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/absaw/Leetcode/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -240,6 +242,7 @@ Leetcode Submissions
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
