@@ -15,7 +15,6 @@ class Solution:
                 return False
             if (not node.right and not node.left and
                 (currSum + node.val == targetSum)):
-                # print(currSum)
                 return True
             
             currSum += node.val
@@ -24,9 +23,5 @@ class Solution:
             currSum -= node.val
             path.remove(node)
             return res
-        # res = False
-        # res = dfs(root,0)
-        # print(res)
-        # print(path)
-        # return res
+        
         return dfs(root,0)
