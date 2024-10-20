@@ -1,35 +1,31 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        
-        def get_val(c):
-            if c == "I":
-                return 1
-            elif c == "V":
-                return 5
-            elif c == "X":
-                return 10
-            elif c == "L":
-                return 50
-            elif c == "C":
-                return 100
-            elif c == "D":
-                return 500
-            elif c == "M":
-                return 1000
-        
         i = 0
-        num = 0
-        n = len(s)
-        
-        while i < n:
+        symDict = {
+            'I': 1,
+            'V': 5,
+            'X': 10,
+            'L': 50,
+            'C': 100,
+            'D': 500,
+            'M': 1000,
+            'IV': 4,
+            'IX': 9,
+            'XL': 40,
+            'XC': 90,
+            'CD': 400,
+            'CM': 900,
+        }
 
-            if i in range(n-1) and get_val(s[i+1]) > get_val(s[i]):
-                num += get_val(s[i+1])-get_val(s[i])
+        num = 0
+        while i < len(s):
+            if (i+1 < len(s) and symDict[s[i+1]]>symDict[s[i]]):
+                sym = s[i:i+2]
+                num += symDict[sym]
                 i += 2
             else:
-                num += get_val(s[i])
-                i += 1
+                sym = s[i]
+                num += symDict[sym]
+                i+=1
         
         return num
-
-            
