@@ -72,6 +72,7 @@ Leetcode Submissions
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/absaw/Leetcode/tree/master/0093-restore-ip-addresses) |
+| [0125-valid-palindrome](https://github.com/absaw/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -307,6 +308,7 @@ Leetcode Submissions
 | [0061-rotate-list](https://github.com/absaw/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/absaw/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/absaw/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
