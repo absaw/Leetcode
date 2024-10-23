@@ -1,17 +1,21 @@
+'''
+idx_anagram_array = [0]*26
+for str in strs:
+for c in str:
+    i = ord('c')-ord('a')
+    idx_anagram_array[i] += 1
+dict[tuple(idx_anagram_array)]+=1
+return dict.values() 
+'''
+from collections import defaultdict
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        
-        hm=defaultdict(list)
-
+        dct = defaultdict(list)
         for s in strs:
-
-            c=[0] * 26
-
-            for char in s:
-                i=ord(char)-ord("a")
-                print(i)
-                c[i]+=1
-            
-            hm[tuple(c)].append(s)
-        
-        return hm.values()
+            idx_anagram_array = [0]*26
+            for c in s:
+                i = ord(c)-ord('a')
+                idx_anagram_array[i] += 1
+            dct[tuple(idx_anagram_array)].append(s)
+        # print(list(dct.values()))
+        return list(dct.values())
