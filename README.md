@@ -195,6 +195,7 @@ Leetcode Submissions
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/absaw/Leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
@@ -292,6 +293,7 @@ Leetcode Submissions
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
@@ -392,5 +394,6 @@ Leetcode Submissions
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/absaw/Leetcode/tree/master/0289-game-of-life) |
 <!---LeetCode Topics End-->
