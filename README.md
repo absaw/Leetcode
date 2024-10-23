@@ -60,6 +60,7 @@ Leetcode Submissions
 | [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 ## String
 |  |
@@ -84,6 +85,7 @@ Leetcode Submissions
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Tree
 |  |
 | ------- |
@@ -219,6 +221,7 @@ Leetcode Submissions
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/absaw/Leetcode/tree/master/0792-binary-search) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 ## Math
 |  |
@@ -241,6 +244,7 @@ Leetcode Submissions
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Breadth-First Search
 |  |
 | ------- |
