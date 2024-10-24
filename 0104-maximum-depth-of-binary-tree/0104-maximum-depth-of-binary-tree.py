@@ -9,8 +9,5 @@ class Solution:
         
         if not root:
             return 0
-
-        left_max = 1 + self.maxDepth(root.left)
-        right_max = 1 + self.maxDepth(root.right)
-
-        return left_max if left_max>=right_max else right_max
+        
+        return 1+max(self.maxDepth(root.left),self.maxDepth(root.right))
