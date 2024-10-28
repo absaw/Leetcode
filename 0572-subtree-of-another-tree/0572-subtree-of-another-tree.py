@@ -12,9 +12,9 @@ class Solution:
             return False
         return (p.val==q.val) and self.isSameTree(p.left,q.left) and self.isSameTree(p.right,q.right)
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not root:
+            return False
         if self.isSameTree(root,subRoot):
             return True
         
-        left = self.isSubtree(root.left,subRoot) if root.left  else False
-        right = self.isSubtree(root.right,subRoot) if root.right else False
-        return left or right
+        return self.isSubtree(root.left,subRoot) or self.isSubtree(root.right,subRoot)
