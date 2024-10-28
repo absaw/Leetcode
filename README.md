@@ -28,6 +28,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/absaw/Leetcode/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0061-rotate-list](https://github.com/absaw/Leetcode/tree/master/0061-rotate-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -39,6 +40,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/absaw/Leetcode/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/absaw/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Hash Table
