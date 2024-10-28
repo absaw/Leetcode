@@ -19,5 +19,4 @@ class Solution:
                 return [-1,False]
                 
             return [max(leftDepth,rightDepth),True]
-        # print(calculateHeight(root))
-        return False if calculateHeight(root)[1]==False else True
+        return calculateHeight(root)[1]
