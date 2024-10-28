@@ -117,6 +117,7 @@ Leetcode Submissions
 | [0543-diameter-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/absaw/Leetcode/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/absaw/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -158,6 +159,7 @@ Leetcode Submissions
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/absaw/Leetcode/tree/master/0300-longest-increasing-subsequence) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0792-binary-search](https://github.com/absaw/Leetcode/tree/master/0792-binary-search) |
 ## Binary Tree
 |  |
@@ -185,6 +187,7 @@ Leetcode Submissions
 | [0543-diameter-of-binary-tree](https://github.com/absaw/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/absaw/Leetcode/tree/master/0563-binary-tree-tilt) |
 | [0572-subtree-of-another-tree](https://github.com/absaw/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Divide and Conquer
 |  |
@@ -373,6 +376,7 @@ Leetcode Submissions
 | [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/absaw/Leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Memoization
 |  |
 | ------- |
@@ -382,6 +386,7 @@ Leetcode Submissions
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -412,4 +417,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/absaw/Leetcode/tree/master/0572-subtree-of-another-tree) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
