@@ -18,7 +18,8 @@ class Solution:
         for i in range(len(s)):
             
             ord_s = ord(s[i])
-            if ord_s in range(48,58):
+            # if ord_s in range(48,58):
+            if s[i].isdigit():
                 n = ord_s-48
                 num = num*10 + n
             else: 
