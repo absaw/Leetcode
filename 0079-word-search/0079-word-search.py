@@ -28,6 +28,6 @@ class Solution:
         for r in range(m):
             for c in range(n):
                 ch = board[r][c]
-                if dfs(r,c,0):
+                if ch == word[0] and dfs(r,c,0):
                     return True
         return False
