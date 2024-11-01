@@ -226,6 +226,7 @@ Leetcode Submissions
 | [0134-gas-station](https://github.com/absaw/Leetcode/tree/master/0134-gas-station) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/absaw/Leetcode/tree/master/0212-word-search-ii) |
+| [0238-product-of-array-except-self](https://github.com/absaw/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/absaw/Leetcode/tree/master/0252-meeting-rooms) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
@@ -409,6 +410,7 @@ Leetcode Submissions
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/absaw/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 ## Doubly-Linked List
 |  |
