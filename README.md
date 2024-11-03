@@ -29,6 +29,7 @@ Leetcode Submissions
 | ------- |
 | [0002-add-two-numbers](https://github.com/absaw/Leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/absaw/Leetcode/tree/master/0061-rotate-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -206,6 +207,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/absaw/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -421,6 +423,7 @@ Leetcode Submissions
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -465,4 +468,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
