@@ -15,6 +15,7 @@ Leetcode Submissions
 | [0300-longest-increasing-subsequence](https://github.com/absaw/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
+| [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -258,6 +259,7 @@ Leetcode Submissions
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
+| [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/absaw/Leetcode/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -310,6 +312,7 @@ Leetcode Submissions
 | [0286-walls-and-gates](https://github.com/absaw/Leetcode/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
+| [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -350,6 +353,7 @@ Leetcode Submissions
 | [0289-game-of-life](https://github.com/absaw/Leetcode/tree/master/0289-game-of-life) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
+| [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 ## Graph
