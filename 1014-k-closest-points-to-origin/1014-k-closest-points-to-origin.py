@@ -1,20 +1,13 @@
-import heapq, math
 class Solution:
+    # O(nlogk solution)
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         maxHeap = []
-        heapq.heapify(maxHeap)
-        for x,y in points:
-            distance = math.sqrt(x**2+y**2)
-            # maxHeap.append([-distance,(x,y)])
-            heapq.heappush(maxHeap,[-distance,(x,y)])
-
+        
+        for x, y in points:
+            distance = -(x**2 + y**2)  # Use negative to simulate max-heap behavior
+            heapq.heappush(maxHeap, (distance, [x, y]))
             
-
-        # heapq.heapify(maxHeap)
-        res = []
-        while len(maxHeap)!=0:
             if len(maxHeap) > k:
-                heapq.heappop(maxHeap)
-            else:
-                res.append(heapq.heappop(maxHeap)[1])
-        return res
+                heapq.heappop(maxHeap)  # Remove the farthest point
+        
+        return [point for _, point in maxHeap]
