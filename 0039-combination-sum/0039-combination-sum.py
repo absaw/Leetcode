@@ -5,7 +5,7 @@ class Solution:
         def combinations(nums,currPtr,currSum):
 
             if currSum == target:
-                self.res.append(nums)
+                self.res.append(nums[:])
                 return
             elif currSum > target or currPtr == len(candidates):
                 return
@@ -14,7 +14,7 @@ class Solution:
             currSum += candidates[currPtr]
             nums.append(candidates[currPtr])
 
-            combinations(nums.copy(),currPtr,currSum)
+            combinations(nums,currPtr,currSum)
             #avoiding the current element
             currSum -= candidates[currPtr]
             nums.pop()
