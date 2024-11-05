@@ -6,21 +6,22 @@
 #         self.right = right
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
-        
-        self.result = root.val
+        self.res = float('-inf')
 
-        def binTree(root):
-
+        def maxPath(root):
+             
             if not root:
                 return 0
 
-            leftM = max(0,binTree(root.left))
-            rightM = max(0,binTree(root.right))
+            leftPathSum = maxPath(root.left)
+            leftPathSum = leftPathSum if leftPathSum>=0 else 0
+            rightPathSum = maxPath(root.right)
+            rightPathSum = rightPathSum if rightPathSum>=0 else 0
 
-            self.result = max(self.result,root.val + leftM + rightM)
+            currentSum = leftPathSum + root.val + rightPathSum
 
-            return max(0,root.val+leftM,root.val+rightM)
+            self.res = max(currentSum,self.res)
 
-        binTree(root)
-
-        return self.result
+            return max(root.val+leftPathSum,root.val+rightPathSum)
+        maxPath(root)
+        return self.res
