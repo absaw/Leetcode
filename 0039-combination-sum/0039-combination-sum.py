@@ -1,27 +1,24 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        
+        self.res = []
 
-        res = []
-        
-        def backTrack(i,sol,total):
-            
-            if total == target:
-                res.append(sol.copy())
+        def combinations(nums,currPtr,currSum):
+
+            if currSum == target:
+                self.res.append(nums)
+                return
+            elif currSum > target or currPtr == len(candidates):
                 return
             
-            if total > target or i == len(candidates):
-                return
-            
-            #Exclude the current element
-            backTrack(i+1,sol,total)
+            #using the current element
+            currSum += candidates[currPtr]
+            nums.append(candidates[currPtr])
 
-            #include the current element
-            sol.append(candidates[i])
-            backTrack(i,sol,total+candidates[i])
-            sol.pop()
+            combinations(nums.copy(),currPtr,currSum)
+            #avoiding the current element
+            currSum -= candidates[currPtr]
+            nums.pop()
+            combinations(nums,currPtr+1,currSum)
+        combinations([],0,0)
+        return self.res
             
-        
-        backTrack(0,[],0)
-
-        return res
