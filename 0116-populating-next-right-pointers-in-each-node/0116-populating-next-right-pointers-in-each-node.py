@@ -10,13 +10,13 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-
+        
         current = root
-        nxt = root.left if root else None
+        nxt = current.left if current else None
 
         while current and nxt:
+
             current.left.next = current.right
-            # nxt.next = current.right
             if current.next:
                 current.right.next = current.next.left
             
@@ -24,5 +24,4 @@ class Solution:
             if not current:
                 current = nxt
                 nxt = current.left
-        
         return root
