@@ -16,6 +16,7 @@ Leetcode Submissions
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
+| [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -102,6 +103,7 @@ Leetcode Submissions
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 | [0686-repeated-string-match](https://github.com/absaw/Leetcode/tree/master/0686-repeated-string-match) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 ## Tree
 |  |
