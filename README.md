@@ -237,6 +237,7 @@ Leetcode Submissions
 | [0033-search-in-rotated-sorted-array](https://github.com/absaw/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
@@ -286,6 +287,7 @@ Leetcode Submissions
 | [0002-add-two-numbers](https://github.com/absaw/Leetcode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/absaw/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
@@ -362,6 +364,7 @@ Leetcode Submissions
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
