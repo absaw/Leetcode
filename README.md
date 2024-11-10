@@ -60,6 +60,7 @@ Leetcode Submissions
 | [0012-integer-to-roman](https://github.com/absaw/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/absaw/Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -243,6 +244,7 @@ Leetcode Submissions
 | [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/absaw/Leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/absaw/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
@@ -367,6 +369,7 @@ Leetcode Submissions
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/absaw/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
