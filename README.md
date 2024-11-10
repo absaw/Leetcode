@@ -41,6 +41,7 @@ Leetcode Submissions
 | [0141-linked-list-cycle](https://github.com/absaw/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/absaw/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/absaw/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/absaw/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -64,6 +65,7 @@ Leetcode Submissions
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/absaw/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/absaw/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/absaw/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/absaw/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/absaw/Leetcode/tree/master/0242-valid-anagram) |
@@ -386,6 +388,7 @@ Leetcode Submissions
 | [0141-linked-list-cycle](https://github.com/absaw/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/absaw/Leetcode/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/absaw/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0160-intersection-of-two-linked-lists](https://github.com/absaw/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/absaw/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0295-find-median-from-data-stream](https://github.com/absaw/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
