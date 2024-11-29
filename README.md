@@ -30,6 +30,7 @@ Leetcode Submissions
 | [0191-number-of-1-bits](https://github.com/absaw/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
+| [0371-sum-of-two-integers](https://github.com/absaw/Leetcode/tree/master/0371-sum-of-two-integers) |
 ## Linked List
 |  |
 | ------- |
@@ -304,6 +305,7 @@ Leetcode Submissions
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
+| [0371-sum-of-two-integers](https://github.com/absaw/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
