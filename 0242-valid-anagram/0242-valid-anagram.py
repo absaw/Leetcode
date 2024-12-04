@@ -1,18 +1,14 @@
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        
-        if len(s) != len(t):
+        if len(s)!= len(t):
             return False
-        l1 = [0] * 26
-        l2 = [0] * 26
-        for i in range(len(s)):
-            ch1 = s[i]
-            i_ch1 = ord(ch1) - ord('a')
-            l1[i_ch1] += 1
+        s_arr = [0]*26
+        t_arr = [0]*26
 
-            ch2 = t[i]
-            i_ch2 = ord(ch2) - ord('a')
-            l2[i_ch2] += 1
-        
-        return True if l1==l2 else False
-            
+        for i in range(len(s)):
+            ch_s= ord(s[i])-ord('a') 
+            ch_t = ord(t[i])-ord('a')
+            s_arr[ch_s] += 1
+            t_arr[ch_t] += 1
+        return s_arr==t_arr
