@@ -63,6 +63,7 @@ Leetcode Submissions
 | [0003-longest-substring-without-repeating-characters](https://github.com/absaw/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/absaw/Leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/absaw/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -248,6 +249,7 @@ Leetcode Submissions
 | [0004-median-of-two-sorted-arrays](https://github.com/absaw/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/absaw/Leetcode/tree/master/0011-container-with-most-water) |
 | [0033-search-in-rotated-sorted-array](https://github.com/absaw/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/absaw/Leetcode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
@@ -384,6 +386,7 @@ Leetcode Submissions
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/absaw/Leetcode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
