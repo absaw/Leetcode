@@ -1,40 +1,19 @@
-'''
-[4,5,6,7,4,1,2,4,1,1,1,2,]
-
-top k = 2
-1:4
-2: 2
-4: 3
-5: 1
-6: 1
-7:1
-minheap of length = k
-
-minHeap([freq,num])
-if currFreq > minHeap[-1][0]:
-    heapq.heappushpop(minHeap,[currFreq,num])
-else:
-    heapq.heappop()
-'''
-import heapq
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        
-        freq = {}
+        import heapq
 
-        for num in nums:
-            freq[num] = 1 + freq.get(num,0)
-        #freq = {number 1: frequency 4, 2: 3, 3:5}
-        minHeap = []
-        heapq.heapify(minHeap)
-        for num,freq in freq.items():
-            # if len(minHeap)<k:
-            heapq.heappush(minHeap,[freq,num])
-            if len(minHeap)>k:
-                heapq.heappop(minHeap)
-            
+        freqD = {}
+
+        for n in nums:
+            freqD[n] = 1 + freqD.get(n,0)
+        heap = []
+        heapq.heapify(heap)
+        for n, freq in freqD.items():
+            heapq.heappush(heap,[freq,n])
+            if len(heap)>k:
+                heapq.heappop(heap)
         result = []
-        i = 0
-        while i<k and i < len(minHeap):
-            result.append(heapq.heappop(minHeap)[1])
+        for i in range(k):
+            if heap:
+                result.append(heapq.heappop(heap)[1])
         return result
