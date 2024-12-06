@@ -7,6 +7,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/absaw/Leetcode/tree/master/0091-decode-ways) |
@@ -252,6 +253,7 @@ Leetcode Submissions
 | [0033-search-in-rotated-sorted-array](https://github.com/absaw/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/absaw/Leetcode/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/absaw/Leetcode/tree/master/0039-combination-sum) |
+| [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
@@ -419,6 +421,7 @@ Leetcode Submissions
 | [0015-3sum](https://github.com/absaw/Leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/absaw/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/absaw/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/absaw/Leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/absaw/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/absaw/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -475,6 +478,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/absaw/Leetcode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/absaw/Leetcode/tree/master/0143-reorder-list) |
 ## Design
@@ -546,4 +550,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
