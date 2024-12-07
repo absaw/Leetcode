@@ -1,18 +1,25 @@
+# s = "abcabcbb"
+#      l
+#         r
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         l = 0
         r = 0
-        window = set()
-        #window[s[l]] = 1+ window.get(s[l],0)
+        charSet = set()
         maxLen = 0
-        #  v 
+        if not s:
+            return 0
+        
         while r<len(s):
-            
-            if s[r] in window:
-                while s[r] in window and l<r:
-                    window.remove(s[l])
-                    l+=1
-            window.add(s[r])
-            maxLen = max(maxLen, r-l+1)
-            r += 1
+            # if s[r] not in charSet:
+            #     charSet.add(s[r])
+            #     r+=1
+            if s[r] in charSet:
+                while s[r] in charSet and l<r:
+                    charSet.remove(s[l])
+                    l += 1
+            charSet.add(s[r])
+            maxLen = max(maxLen,r-l+1)
+            r+=1
+                    
         return maxLen
