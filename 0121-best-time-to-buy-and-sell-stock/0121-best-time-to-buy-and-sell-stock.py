@@ -1,17 +1,20 @@
+#     7, 1, 5, 3, 6, 4, 0, 8
+# min 7  1              0
+# max 7  1  5           0  8
+# curP0  0  4  3  5  3  0  8
+# maxP = 8
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        max_profit = 0
-
-        high_p = low_p = prices[0]
+        
+        minPrice = prices[0]
+        maxProfit = 0
 
         for i in range(1,len(prices)):
-            
-            if prices[i]< low_p:
-                low_p = prices[i]
-                high_p = prices[i]
-            
-            if prices[i] > high_p:
-                high_p = prices[i]
-                max_profit = max(max_profit,high_p - low_p)
 
-        return max_profit	
+            if prices[i] < minPrice:
+                minPrice = prices[i]
+                # maxPrice = prices[i]
+            else:
+                if prices[i]-minPrice > maxProfit:
+                    maxProfit = prices[i]-minPrice
+        return maxProfit
