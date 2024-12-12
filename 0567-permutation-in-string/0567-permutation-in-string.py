@@ -1,32 +1,23 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        if len(s1) >len(s2):
+        if len(s2)<len(s1):
             return False
-
-        s1_d = {}
-        s2_d = {}
-
-        for i in range(97,123):
-            s1_d[chr(i)] = 0
-            s2_d[chr(i)] = 0
         
-        for i in range(len(s1)):
-            s1_d[s1[i]] += 1
-            s2_d[s2[i]] += 1
-        
+        s1Arr = [0] * 26
+        s2Arr = [0] * 26
+
+        for ch in s1:
+            s1Arr[ord(ch)-ord('a')] += 1
+
+        win = len(s1)
         l = 0
-        r = len(s1) - 1
-        # print(s1_d)
-        # print(s2_d)
-        # print(s1_d)
-        # print(s2[r-1])
-        if s1_d == s2_d:
-            return True
-        while r < len(s2)-1 :
-            r += 1
-            s2_d[s2[r]] += 1
-            s2_d[s2[l]] -= 1
-            l += 1
-            if s1_d == s2_d:
+        for r in range(len(s2)):
+            rch = s2[r]
+            s2Arr[ord(rch)-ord('a')] += 1
+            if r >= win:
+                lch = s2[l]
+                s2Arr[ord(lch)-ord('a')] -= 1
+                l += 1
+            if s1Arr == s2Arr:
                 return True
         return False
