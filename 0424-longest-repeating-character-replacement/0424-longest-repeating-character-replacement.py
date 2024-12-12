@@ -1,26 +1,36 @@
+'''
+ABCAAADA
+ ^^
+k = 1
+no. of replacements needed = winLength - max frequency character in all
+for eg.
+AAAAABAB
+L      R
+A = 5
+B = 1
+k=3
+nreplacements = 8-6 = 2
+so 2 Bs can be replaced
+'''
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        l = 0  # Left pointer of the window
-        maxLen = 0  # Result to store the maximum length
-        charMap = {}  # Dictionary to count characters in the current window
-        
-        for r in range(len(s)):
-            # Update the frequency of the character at the right pointer
-            charMap[s[r]] = charMap.get(s[r], 0) + 1
+        chArr = [0]*26
+        l = r = 0
+        lSub = 0
+        while r < len(s):
+            winLen = r-l+1
+            ich = ord(s[r])-ord('A')
+            chArr[ich]+=1
+            mfchar = max(chArr)
             
-            # Calculate the window length and the most frequent character count
-            windowLen = r - l + 1
-            mostFrequentChar = max(charMap.values())
-            changesNeeded = windowLen - mostFrequentChar
-            
-            # If changes exceed k, shrink the window from the left
-            if changesNeeded > k:
-                charMap[s[l]] -= 1
-                if charMap[s[l]] == 0:
-                    del charMap[s[l]]  # Clean up the dictionary
-                l += 1  # Move left pointer to the right
+            nReplacement = winLen - mfchar
+            if nReplacement <= k:
+                lSub = max(lSub,winLen)
             else:
-                # Update the maximum length if within k replacements
-                maxLen = max(maxLen, windowLen)
-        
-        return maxLen
+                i_ch = ord(s[l])-ord('A')
+                chArr[i_ch]-=1
+                l += 1
+                
+            r +=1
+        return lSub
+                
