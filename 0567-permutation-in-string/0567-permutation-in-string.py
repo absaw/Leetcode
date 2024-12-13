@@ -1,23 +1,24 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        if len(s2)<len(s1):
+        s1dict = {}
+        s2dict = {}
+        if len(s1)>len(s2):
             return False
-        
-        s1Arr = [0] * 26
-        s2Arr = [0] * 26
-
         for ch in s1:
-            s1Arr[ord(ch)-ord('a')] += 1
-
-        win = len(s1)
+            s1dict[ch] = 1 + s1dict.get(ch,0)
+        winLen = len(s1)
         l = 0
         for r in range(len(s2)):
-            rch = s2[r]
-            s2Arr[ord(rch)-ord('a')] += 1
-            if r >= win:
-                lch = s2[l]
-                s2Arr[ord(lch)-ord('a')] -= 1
+            ch_r = s2[r]
+            s2dict[ch_r] = 1 + s2dict.get(ch_r,0)
+
+            if r >= winLen:
+                ch_l = s2[l]
+                s2dict[ch_l] -= 1
+                if s2dict[ch_l]==0:
+                    del s2dict[ch_l]
                 l += 1
-            if s1Arr == s2Arr:
+            if s2dict == s1dict:
                 return True
+            
         return False
