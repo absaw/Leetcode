@@ -308,6 +308,7 @@ Leetcode Submissions
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Math
 |  |
 | ------- |
@@ -514,6 +515,7 @@ Leetcode Submissions
 | [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/absaw/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -544,6 +546,7 @@ Leetcode Submissions
 | ------- |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/absaw/Leetcode/tree/master/0289-game-of-life) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Hash Function
 |  |
 | ------- |
