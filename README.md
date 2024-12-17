@@ -190,6 +190,7 @@ Leetcode Submissions
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/absaw/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/absaw/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/absaw/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
@@ -265,6 +266,7 @@ Leetcode Submissions
 | [0057-insert-interval](https://github.com/absaw/Leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/absaw/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/absaw/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/absaw/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
@@ -404,6 +406,7 @@ Leetcode Submissions
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/absaw/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0074-search-a-2d-matrix](https://github.com/absaw/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/absaw/Leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/absaw/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/absaw/Leetcode/tree/master/0200-number-of-islands) |
