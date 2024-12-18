@@ -306,6 +306,7 @@ Leetcode Submissions
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/absaw/Leetcode/tree/master/0733-flood-fill) |
+| [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/absaw/Leetcode/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/absaw/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -499,6 +500,7 @@ Leetcode Submissions
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/absaw/Leetcode/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/absaw/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
 | ------- |
@@ -578,6 +580,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 ## Radix Sort
 |  |
 | ------- |
