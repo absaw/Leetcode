@@ -1,40 +1,49 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         
-        p1 = 0
-        p2 = 0
-        mergedNums = [0]*(len(nums1)+len(nums2))
-        k = 0
-        median = 0.0
-        while k < len(mergedNums):
-            # p1 = None if p1==len(nums1) else p1
-            # p2 = None if p2==len(nums2) else p2
-            # print(p1,p2)
-            if p1<len(nums1) and p2<len(nums2):
-                if nums1[p1] < nums2[p2]:
-                    mergedNums[k] = nums1[p1]
-                    p1 += 1
-                else:
-                    mergedNums[k] = nums2[p2]
-                    p2 += 1
-            elif p1<len(nums1):
-
-                mergedNums[k] = nums1[p1]
-                p1+=1
-            elif p2<len(nums2):
-                mergedNums[k] = nums2[p2]
-                p2+=1
-            k+=1
-        mergedLen = len(mergedNums)
-        # print(mergedNums)
-        if mergedLen % 2 == 0:
-            m1 = mergedLen//2
-            m2 = m1 -1
-            median = (mergedNums[m1]+mergedNums[m2])/2
+        if len(nums1)<=len(nums2):
+            A = nums1
+            B = nums2
         else:
-            m1 = mergedLen//2
-            median = mergedNums[m1]
+            A = nums2
+            B = nums1
+        
+        l = 0
+        r = len(A)-1
+        total = (len(A)+len(B))
+        half  =total//2
+        # A = 1, 4, 6, 7
+        #        i
+        #     l  
+        #        m=1
+        #              r
 
-        return median
+        # B = 2, 4, 5, 8, 10, 11
+        #           j
+        i = 0
+        j = 0
+        while True:
+
+            mid = l + (r-l)//2 #1
+            i = mid  # 1
+            j = half - (mid+1) - 1 # 2
+            Aleft = A[i] if i>=0 else float('-inf')
+            Aright = A[i+1] if (i+1) < len(A) else float('inf')
+            Bleft = B[j] if j >=0 else float('-inf')
+            Bright = B[j+1] if (j+1)<len(B) else float('inf')
+            
+            if Aleft<=Bright and Bleft <= Aright:
+                if total%2 == 0:
+                    return (max(Aleft,Bleft)+min(Aright,Bright))/2
+                return min(Aright,Bright)
+            
+            elif Aleft>Bright:
+                r = mid-1
+            else:
+            # elif Bleft>Aright:
+                l = mid+1
+            
 
 
+
+            
