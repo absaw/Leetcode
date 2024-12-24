@@ -39,10 +39,10 @@ class Solution:
         # ptr1
         # 4 > 3
         # ptr2
-        dummy=ListNode()
+        # dummy=ListNode()
         ptr1 = head
         ptr2 = head2
-        dummy.next = ptr1
+        # dummy.next = ptr1
         while ptr1 and ptr2:
             ptr1nxt = ptr1.next
             ptr2nxt = ptr2.next
@@ -51,7 +51,7 @@ class Solution:
             ptr2.next = ptr1nxt
             ptr1 = ptr1nxt
             ptr2 = ptr2nxt
-        return dummy.next
+        return head
 
 
         
