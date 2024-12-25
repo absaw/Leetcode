@@ -1,84 +1,85 @@
-"""
-double linked list - 
-Node 
-key: storing key
-val: storing value 
-left - store tail - least recent
-right - store head - most recent
-eviction policy: eliminate LRU node if len(cache)>capacity
-
-hash map 
-stores key, 
-val: reference of the corresponding node in the double linked list
-                          prev  newNode  next
-None <- Node1-> Node2 -> Node3 ->        None
-     ->      <-       <-       <-
-
-    
-"""
-
+'''
+None <left > node1 > node2 >node3 > right > None
+           <       <       <      <
+left > right
+     <
+node_dict = {
+    node1: #1
+    node2:#2
+    node3:#3
+}
+ '''
 class Node:
-    def __init__(self, key, val):
+    def __init__(self,key = 0,val=0):
         self.key = key
         self.val = val
-        self.right = None
-        self.left = None
-
+        self.prev = None
+        self.next = None
 class LRUCache:
 
     def __init__(self, capacity: int):
-        self.cache_map = {}
-        self.head = Node(0,0) # Insert
-        self.tail = Node(0,0) # Evict
-        self.head.left = self.tail
-        self.tail.right = self.head
+        self.node_dict = {}
         self.capacity = capacity
+        self.left = Node(0,0)
+        self.right = Node(0,0)
+        self.left.next=self.right
+        self.right.prev = self.left
+        self.nElements = 0
+    def append(self,newNode):
+        # node > right
+        #      <
+        # node > newNode > right
+        #      <         <
+        prev  = self.right.prev
+        nxt = self.right
     
-    def remove(self, key):
-        # print(key)
-        # print(self.cache_map)
-        nodeToBeRemoved = self.cache_map[key]
-        prev = nodeToBeRemoved.left
-        nxt = nodeToBeRemoved.right
-        prev.right, nxt.left = nxt, prev
-
-    def insert(self,key):
-        
-        # newNode = Node(key,value)
-        newNode=self.cache_map[key]
-        prev = self.head.left 
-        nxt = self.head
-        prev.right = newNode
-        nxt.left = newNode
-        newNode.left = prev
-        newNode.right = nxt
-
+        newNode.next = nxt
+        newNode.prev = prev
+        prev.next = newNode
+        nxt.prev = newNode
+    
+    def remove(self,node):
+        nn = node.next
+        pn = node.prev
+        pn.next = nn
+        nn.prev = pn
+    
     def get(self, key: int) -> int:
-        
-        if key in self.cache_map:
-            self.remove(key)
-            self.insert(key)
-            return self.cache_map[key].val
+        if key in self.node_dict:
+            node = self.node_dict[key]
+            # remove node from this position
+            self.remove(node)
+            # append node to end of the list
+            self.append(node)
+            return node.val
         else:
             return -1
 
     def put(self, key: int, value: int) -> None:
-        
-        if key in self.cache_map:
-            self.remove(key)
-            self.insert(key)
-            self.cache_map[key].val = value
+        if key in self.node_dict:
+            node = self.node_dict[key]
+            #update value
+            node.val = value
+            # remove node from middle of list
+            self.remove(node)
+            # append node at end of the list
+            self.append(node)
         else:
-            self.cache_map[key] = Node(key,value)
-            self.insert(key)
+            # append node at end of the list
+            node = Node(key,value)
+            self.node_dict[key] = node
+            # increase nElements
+            if len(self.node_dict)>self.capacity:
+                # remove left element
+                # self.nElements-=1
+                lastNode = self.left.next
+                self.remove(lastNode)
+                del self.node_dict[lastNode.key]
+            # self.nElements += 1
+            self.append(node)
+                
         
-        if len(self.cache_map) > self.capacity:
-            lru_node = self.tail.right
-            self.remove(lru_node.key)
-            del self.cache_map[lru_node.key]
 
-        
-        
 
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
