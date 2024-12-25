@@ -45,6 +45,7 @@ Leetcode Submissions
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/absaw/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/absaw/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0138-copy-list-with-random-pointer](https://github.com/absaw/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/absaw/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/absaw/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
@@ -74,6 +75,7 @@ Leetcode Submissions
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/absaw/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/absaw/Leetcode/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/absaw/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/absaw/Leetcode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/absaw/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/absaw/Leetcode/tree/master/0146-lru-cache) |
