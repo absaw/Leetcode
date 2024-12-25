@@ -10,33 +10,22 @@ class Node:
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         
-        dummy = ListNode()
-
-        curr_output = dummy
+        #create a copy of the whole list first
+        if not head:
+            return None
+        node_map = {}
         curr = head
-        node_map={}
+
         while curr:
-            # create node
-            newNode = None
-            if curr in node_map:
-                newNode = node_map[curr]
-            else:
-                newNode = ListNode(curr.val)
-                node_map[curr] = newNode
-            #random node
-            curr_random = curr.random
-            if curr_random in node_map:
-                newNode.random = node_map[curr_random]
-            else:
-                if curr_random:
-                    newNode.random = ListNode(curr_random.val)
-                    node_map[curr_random] = newNode.random
-                else:
-                    newNode.random = None
-            curr_output.next = newNode
+            node_map[curr] = Node(curr.val)
             curr = curr.next
-            curr_output = curr_output.next
-        return dummy.next
-
-            
-
+        
+        curr = head
+        #assign the random and next pointers
+        while curr:
+            if curr.next:
+                node_map[curr].next = node_map[curr.next]
+            if curr.random:
+                node_map[curr].random = node_map[curr.random]
+            curr = curr.next
+        return node_map[head]
