@@ -31,8 +31,8 @@ class Solution:
         self.node_dict = {}
 
         def get_clone(node):
-            if not node:
-                return
+            # if not node:
+            #     return
             if node in self.node_dict:
                 return self.node_dict[node]
             
