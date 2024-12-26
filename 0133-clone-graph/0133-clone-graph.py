@@ -4,35 +4,42 @@ class Node:
     def __init__(self, val = 0, neighbors = None):
         self.val = val
         self.neighbors = neighbors if neighbors is not None else []
+node_dict = {
+    old:new
+    1o : 1n
+    2o : 2n
+    3o : 3n
+}
+1o:
+    val = 1
+    neighbors = [2o, 3o, 4o]
+1n:
+    val = 1
+    neighbors = [2n, 3n, 4n]
+traverse through the graph, in recursive manner: dfs
+if node in dict: return node 
+else
+    add it to dict, for future use
+    add the neighbors to dict
 
-Create a dictionary which stores the cloned new nodes
-Perform a dfs from the current node
-When a new node is seen, create a clone and store
-When its already seen, get it and append it to the neighbor
-      v
-1-2-3-4
-| |\
-5 6 7
-
-1n 2n 3n-4n
-1:1n
-2:2n
-3:3n
-4: 4n
 """
 
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
-        nodeDict = {}
-        def dfs(node):
-            if node in nodeDict:
-                return nodeDict[node]
+        
+        self.node_dict = {}
+
+        def get_clone(node):
+            if not node:
+                return
+            if node in self.node_dict:
+                return self.node_dict[node]
             
             newNode = Node(node.val)
-            nodeDict[node] = newNode
+            self.node_dict[node] = newNode
             for neighbor in node.neighbors:
-                newNode.neighbors.append(dfs(neighbor))
+                newNode.neighbors.append(get_clone(neighbor))
+            
             return newNode
-
-        return dfs(node) if node else None
+        return get_clone(node) if node else None
