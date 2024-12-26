@@ -1,36 +1,26 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        
-
-        max_area = 0
-
-        m = len(grid)
-        n = len(grid[0])
-
-        visited = set()
-
+        self.maxArea = 0
+        M = len(grid)
+        N = len(grid[0])
         def dfs(r,c):
 
-            if ( r not in range(m) or
-                 c not in range(n) or
-                 (r,c) in visited or 
-                 grid[r][c] == 0):
-                 return 0
-            area = 0
-            visited.add((r,c))
-            directions = [(-1,0),(1,0),(0,1),(0,-1)]
-            for d_r, d_c in directions:
-                n_r = r + d_r
-                n_c = c + d_c
-                area += dfs(n_r,n_c)
-            return 1 + area
+            if (r not in range(M) or
+                c not in range(N) or  
+                grid[r][c] == -1 or grid[r][c]==0):
+                return 0 
+            grid[r][c] = -1
+            area = 1
+            area += dfs(r,c+1)
+            area += dfs(r,c-1)
+            area += dfs(r+1,c)
+            area += dfs(r-1,c)
+            return area
 
-        for r in range(m):
-            for c in range(n):
 
-                if grid[r][c] == 1 and (r,c) not in visited:
+        for r in range(M):
+            for c in range(N):
+                if grid[r][c]==1:
+                    self.maxArea = max(self.maxArea,dfs(r,c))
 
-                    area = dfs(r,c)
-                    max_area = max(area,max_area)
-        
-        return max_area
+        return self.maxArea
