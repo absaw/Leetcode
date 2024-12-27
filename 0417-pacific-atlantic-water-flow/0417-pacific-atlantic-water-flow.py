@@ -8,10 +8,7 @@ class Solution:
         N = len(heights[0])
         neighbors = [[0,1],[0,-1],[1,0],[-1,0]]
         def dfs(r,c,visited):
-            # if (r not in range(M) or 
-            #     c not in range(N) or
-            #     (r,c) in visited):
-            #     return
+    
             visited.add((r,c))
             #explore the neighbors
             for dr, dc in neighbors:
@@ -33,11 +30,10 @@ class Solution:
             dfs(r,0,visited_pacific)
             #atlantic col
             dfs(r,N-1,visited_atlantic)
-        # print(visited_pacific)
-        # print(visited_atlantic)
+       
         ints = visited_pacific & visited_atlantic
         # print(ints)
-        result = [[r,c] for r,c in list(ints)]
+        result = list(ints)
         return result
 
 
