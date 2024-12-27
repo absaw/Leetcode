@@ -1,41 +1,36 @@
-"""
-Think of it as a reverse problem
-instead of 
-capturing the surrounded region
-I want to 
-caputure everything except the un-surrounded region.Confusing right. look at the O at (3,1). That is unsurrounded cause its on the border. So i first mark(T)all the unsurrounded. Then I convert the surrounded Os to Xs. Then I unmark the Ts, back to Os
-1. dfs to capture unsurrounded regions
-2. 
-"""
-
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
         Do not return anything, modify board in-place instead.
         """
-        m = len(board)
-        n = len(board[0])
+        M = len(board)
+        N = len(board[0])
+        ignore = set()
         def dfs(r,c):
-            if (r not in range(m) or 
-                c not in range(n) or
-                board[r][c] !='O'):
+            if (r not in range(M) or 
+                c not in range(N) or 
+                board[r][c] =="X" or 
+                (r,c) in ignore):
                 return
-            board[r][c] = 'T'
+            # board[r][c] = "X"
+            ignore.add((r,c))
             dfs(r+1,c)
             dfs(r-1,c)
             dfs(r,c+1)
             dfs(r,c-1)
-        for r in range(m):
-            for c in range(n):
-                if (r==0 or r==(m-1)):
-                    dfs(r,c)
-                elif(c==0 or c==(n-1)):
-                    dfs(r,c)
-        
-        for r in range(m):
-            for c in range(n):
-                if board[r][c] =='O':
-                    board[r][c]='X'
-                elif board[r][c] =='T':
-                    board[r][c] = 'O'
+        for r in range(M):
+            if board[r][0] == "O":
+                dfs(r,0)
+            if board[r][N-1]=="O":
+                dfs(r,N-1)
+        for c in range(N):
+            if board[0][c]=="O":
+                dfs(0,c)
+            if board[M-1][c] == "O":
+                dfs(M-1,c)
+        for r in range(M):
+            for c in range(N):
+                if (r,c) not in ignore and board[r][c] == "O":
+                    board[r][c] = "X"
+
         return board
