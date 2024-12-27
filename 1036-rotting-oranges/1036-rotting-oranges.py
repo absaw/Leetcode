@@ -1,43 +1,41 @@
-from collections import deque
-
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        queue = deque()
-        m = len(grid)
-        n = len(grid[0])
-        fresh = 0
-        fresh_marked = 0
-
-        for r in range(m):
-            for c in range(n):
-
-                if grid[r][c]==1:
-                    fresh += 1
+        M = len(grid)
+        N = len(grid[0])
+        queue = collections.deque()
+        visited = set()
+        self.nFresh =0
+        for r in range(M):
+            for c in range(N):
+                if grid[r][c] == 1:
+                    self.nFresh += 1
                 elif grid[r][c] == 2:
-                    queue.append([(r,c),0])
-        minute=0	
-        neighbors = [[-1,0],[1,0],[0,1],[0,-1]]
-        while fresh >0 and queue:
-            
-            node, minute = queue.popleft()
-            r,c = node
-            # print(grid[r][c])
-            if minute>0 and grid[r][c]==1:
-                fresh -= 1
-            grid[r][c] = 2
-            # neighbors
-            for add_r,add_c in neighbors:
-                new_r,new_c = r+add_r, c+add_c
+                    queue.append((r,c))
+                    visited.add((r,c))
+        if self.nFresh == 0:
+            return 0
+        self.nMin = -1
+        neighbors = [[0,1],[0,-1],[1,0],[-1,0]]
+        # self.nRotten = 0
+        while queue:
+            # r, c = queue.popleft()
+            qLen = len(queue)
 
-                if (new_r in range(m) and 
-                    new_c in range(n) and 
-                    grid[new_r][new_c]==1):
-                    # fresh_marked +=1
-                    queue.append([(new_r,new_c),minute+1])
-        # print(fresh)
-        # print(fresh_marked)
-        # print(minute)
-        if fresh_marked == fresh:
-            return minute
-        else:
-            return -1
+            for _ in range(qLen):
+                r, c = queue.popleft()
+                grid[r][c] = 2
+                #find neighbors and add them to the queue
+                for dr, dc in neighbors:
+                    nr,nc = dr+r, dc+c
+
+                    if (nr in range(M) and 
+                        nc in range(N) and 
+                        (nr,nc) not in visited and
+                        grid[nr][nc]==1):
+                        self.nFresh -= 1
+                        queue.append((nr,nc))
+                        visited.add((nr,nc))
+            self.nMin +=1
+        if self.nFresh ==0:
+            return self.nMin
+        return -1
