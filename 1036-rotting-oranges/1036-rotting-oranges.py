@@ -12,8 +12,8 @@ class Solution:
                 elif grid[r][c] == 2:
                     queue.append((r,c))
                     visited.add((r,c))
-        if self.nFresh == 0:
-            return 0
+        # if self.nFresh == 0:
+        #     return 0
         self.nMin = 0
         neighbors = [[0,1],[0,-1],[1,0],[-1,0]]
         # self.nRotten = 0
