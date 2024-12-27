@@ -14,16 +14,13 @@ class Solution:
                     visited.add((r,c))
         if self.nFresh == 0:
             return 0
-        self.nMin = -1
+        self.nMin = 0
         neighbors = [[0,1],[0,-1],[1,0],[-1,0]]
         # self.nRotten = 0
-        while queue:
-            # r, c = queue.popleft()
+        while self.nFresh>0 and queue:
             qLen = len(queue)
-
             for _ in range(qLen):
                 r, c = queue.popleft()
-                grid[r][c] = 2
                 #find neighbors and add them to the queue
                 for dr, dc in neighbors:
                     nr,nc = dr+r, dc+c
@@ -32,6 +29,7 @@ class Solution:
                         nc in range(N) and 
                         (nr,nc) not in visited and
                         grid[nr][nc]==1):
+                        grid[r][c] = 2
                         self.nFresh -= 1
                         queue.append((nr,nc))
                         visited.add((nr,nc))
