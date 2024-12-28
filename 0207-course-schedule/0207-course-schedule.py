@@ -1,42 +1,27 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adj_list ={}
-
-        for course in range(numCourses):
-            adj_list[course] = []
-        # [1,0],[2,3],[3,1]
-        # 0: []
-        # 1: [0]
-        # 2: [3]
-        # 3: [1]
-        # 2 > 3 > 1 > 0
-        for a, b in prerequisites:
-            adj_list[a].append(b)
         
-        #i have to detect if there exists a loop in the graph
-        # if there is a loop, then the dependency can't be fulfilled
-        # for each of the nodes, if there are no neighbors, it can be taken. so no loop
-        # for node with neighbor, all the neighbors must be traversed without any loop
-        visited = set()
-        rec_stack = set()
-        def dfs(course):
-            if course in rec_stack:
-                return False
-            # if not adj_list[course]:
-            #     return True
-            if course in visited:
-                return True
-            visited.add(course)
-            rec_stack.add(course)
-            can_complete = True
-            for neighbor in adj_list[course]:
-                can_complete = can_complete and dfs(neighbor)
-            rec_stack.remove(course)
-            return can_complete
-            
-        self.result = True
+        adj_mat = {course:[] for course in range(numCourses)}
 
-        for course in range(numCourses):
-            # if course not in visited:
-            self.result = self.result and dfs(course)
-        return self.result                
+        for a,b in prerequisites:
+            adj_mat[a].append(b)
+        self.visited = set()
+        self.visit_branch=set()
+        def dfs(course):
+            if course in self.visit_branch:
+                return False
+            if course in self.visited:
+                return True
+            self.visit_branch.add(course)
+            for neighbor in adj_mat[course]:
+                if not dfs(neighbor):
+                    return False
+            self.visit_branch.remove(course)
+            self.visited.add(course)
+            return True
+        
+        for course in adj_mat:
+            if course not in self.visited:
+                if not dfs(course):
+                    return False
+        return True
