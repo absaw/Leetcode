@@ -1,39 +1,31 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        
-        courseMap = {}
+        adj_mat = {course:[] for course in range(numCourses)}
 
-        for crs in range(numCourses):
-            courseMap[crs]=[]
-        
-        for crs, pre in prerequisites:
-            courseMap[crs].append(pre)
-
-        output=[]
-        visited, current_run = set(), set()
-        def dfs(crs):
-
-            if crs in current_run:
+        for a,b in prerequisites:
+            adj_mat[a].append(b)
+        self.order_stack = []
+        self.visited = set()
+        self.visit_branch =set()
+        def dfs(course):
+            if course in self.visit_branch:
                 return False
-            if crs in visited:
+            if course in self.visited:
                 return True
             
-            current_run.add(crs)
-            for pre in courseMap[crs]:
-                if not dfs(pre):
-                    return []
-            current_run.remove(crs)
-            visited.add(crs)
-            output.append(crs)
-            courseMap[crs] = []
-
+            self.visit_branch.add(course)
+            #neighbors
+            for neighbor in adj_mat[course]:
+                if neighbor not in self.visited:
+                    if not dfs(neighbor):
+                        return False
+            self.visit_branch.remove(course)
+            self.visited.add(course)
+            self.order_stack.append(course)
             return True
-        
-        for crs in range(numCourses):
-            if not dfs(crs):
-                return []
-        
-        return output
 
-
-
+        for course in adj_mat:
+            if course not in self.visited:
+                if not dfs(course):
+                    return []
+        return self.order_stack
