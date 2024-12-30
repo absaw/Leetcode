@@ -12,12 +12,12 @@ class Solution:
                 return False
             if course in self.visited:
                 return True
+            self.visited.add(course)
             self.visit_branch.add(course)
             for neighbor in adj_mat[course]:
                 if not dfs(neighbor):
                     return False
             self.visit_branch.remove(course)
-            self.visited.add(course)
             return True
         
         for course in adj_mat:
