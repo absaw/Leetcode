@@ -22,6 +22,7 @@ Leetcode Submissions
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
+| [0747-min-cost-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/absaw/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1063-best-sightseeing-pair](https://github.com/absaw/Leetcode/tree/master/1063-best-sightseeing-pair) |
 | [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
@@ -331,6 +332,7 @@ Leetcode Submissions
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/absaw/Leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/absaw/Leetcode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/absaw/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0883-car-fleet](https://github.com/absaw/Leetcode/tree/master/0883-car-fleet) |
