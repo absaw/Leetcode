@@ -1,24 +1,17 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        self.res = []
+        
+        result = []
 
-        def combinations(nums,currPtr,currSum):
-
+        def dfs(i, currSum, curr):
             if currSum == target:
-                self.res.append(nums[:])
+                result.append(curr.copy())
                 return
-            elif currSum > target or currPtr == len(candidates):
+            if currSum > target or i >= len(candidates):
                 return
-            
-            #using the current element
-            currSum += candidates[currPtr]
-            nums.append(candidates[currPtr])
-
-            combinations(nums,currPtr,currSum)
-            #avoiding the current element
-            currSum -= candidates[currPtr]
-            nums.pop()
-            combinations(nums,currPtr+1,currSum)
-        combinations([],0,0)
-        return self.res
-            
+            curr.append(candidates[i])
+            dfs(i, currSum+candidates[i],curr)
+            curr.pop()
+            dfs(i+1, currSum, curr)
+        dfs(0,0,[])
+        return result
