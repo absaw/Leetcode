@@ -1,22 +1,15 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        
-        # [1,2,3]
+        result=[]
 
-        res, sol = [], []
-        n = len(nums)
-        def backTrack(i):
-            pass
-            if i == n:
-                res.append(sol.copy())
+        def dfs(i,curr):
+            if i >= len(nums):
+                #add curr to result
+                result.append(curr.copy())
                 return
-            backTrack(i+1)
-
-            sol.append(nums[i])
-            backTrack(i+1)
-            sol.pop()
-            
-        backTrack(0)
-
-        return res
-        
+            curr.append(nums[i])
+            dfs(i+1,curr)
+            curr.pop()
+            dfs(i+1,curr)
+        dfs(0,[])
+        return result
