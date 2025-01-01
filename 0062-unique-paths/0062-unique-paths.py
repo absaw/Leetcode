@@ -10,17 +10,15 @@ class Solution:
 
         ways = 0
         memo = {}
-        def dfs(r,c,path):
+        def dfs(r,c):
             if (r,c) == (m-1,n-1):
                 return 1
-            if (r<0 or r>=m or c<0 or c>=n or (r,c) in path):
+            if (r<0 or r>=m or c<0 or c>=n):
                 return 0
             if (r,c) in memo:
                 return memo[(r,c)]
-            path.add((r,c))
-            ways = dfs(r+1,c,path) + dfs(r,c+1,path)
+            ways = dfs(r+1,c) + dfs(r,c+1)
             memo[(r,c)] = ways
-            path.remove((r,c))
             return ways
         
-        return dfs(0,0,set())
+        return dfs(0,0)
