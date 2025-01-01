@@ -9,6 +9,7 @@ Leetcode Submissions
 | [0005-longest-palindromic-substring](https://github.com/absaw/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/absaw/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/absaw/Leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/absaw/Leetcode/tree/master/0091-decode-ways) |
@@ -266,6 +267,7 @@ Leetcode Submissions
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/absaw/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/absaw/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/absaw/Leetcode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/absaw/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/absaw/Leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/absaw/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -291,6 +293,7 @@ Leetcode Submissions
 | [0046-permutations](https://github.com/absaw/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/absaw/Leetcode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/absaw/Leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/absaw/Leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/absaw/Leetcode/tree/master/0057-insert-interval) |
