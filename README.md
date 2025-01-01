@@ -16,6 +16,7 @@ Leetcode Submissions
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/absaw/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/absaw/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/absaw/Leetcode/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/absaw/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/absaw/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/absaw/Leetcode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/absaw/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -311,6 +312,7 @@ Leetcode Submissions
 | [0134-gas-station](https://github.com/absaw/Leetcode/tree/master/0134-gas-station) |
 | [0139-word-break](https://github.com/absaw/Leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/absaw/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0152-maximum-product-subarray](https://github.com/absaw/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/absaw/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/absaw/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/absaw/Leetcode/tree/master/0169-majority-element) |
