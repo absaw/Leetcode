@@ -10,6 +10,7 @@ Leetcode Submissions
 | [0022-generate-parentheses](https://github.com/absaw/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/absaw/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/absaw/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/absaw/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/absaw/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/absaw/Leetcode/tree/master/0091-decode-ways) |
@@ -370,6 +371,7 @@ Leetcode Submissions
 | [0013-roman-to-integer](https://github.com/absaw/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/absaw/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/absaw/Leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/absaw/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/absaw/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/absaw/Leetcode/tree/master/0268-missing-number) |
@@ -689,4 +691,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/absaw/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
