@@ -28,6 +28,7 @@ Leetcode Submissions
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/absaw/Leetcode/tree/master/0647-palindromic-substrings) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/absaw/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1063-best-sightseeing-pair](https://github.com/absaw/Leetcode/tree/master/1063-best-sightseeing-pair) |
@@ -43,6 +44,7 @@ Leetcode Submissions
 | [0287-find-the-duplicate-number](https://github.com/absaw/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/absaw/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Linked List
 |  |
 | ------- |
@@ -343,6 +345,7 @@ Leetcode Submissions
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0733-flood-fill](https://github.com/absaw/Leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -446,6 +449,7 @@ Leetcode Submissions
 | [0093-restore-ip-addresses](https://github.com/absaw/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/absaw/Leetcode/tree/master/0113-path-sum-ii) |
 | [0212-word-search-ii](https://github.com/absaw/Leetcode/tree/master/0212-word-search-ii) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Union Find
 |  |
 | ------- |
@@ -579,6 +583,7 @@ Leetcode Submissions
 | ------- |
 | [0070-climbing-stairs](https://github.com/absaw/Leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/absaw/Leetcode/tree/master/0139-word-break) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -680,4 +685,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+## Bitmask
+|  |
+| ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
