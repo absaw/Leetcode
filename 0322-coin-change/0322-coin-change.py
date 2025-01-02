@@ -1,25 +1,40 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        '''
-        coins = 1,2,5
-        amount = 11
-        coins[0] = 0
-        coins[1] = 1
-        coins[2] = 1
-        coins[3] = min(coins[1]+coins[2])
-        coins[4] = min(coins[2]+coins[2]+coins[1]+coins[3])
-        coins[5] = 1+coins[4] or coins[2]+coins[3]
-        coins[6] = coins[1]+coins[5] or coins[2]+coins[4] or coins[3]+coins[3]
-        code::
-        coins = [0,0,0,0,0,0,0,0,0,0]
-        '''
-        dp = [amount+1]*(amount+1)
-        dp[0] = 0
-        for i in range(amount+1):
-            for denom in coins:
-                if denom<=i:
-                    dp[i] = min(1+dp[i-denom],dp[i])
         
-        return dp[amount] if dp[amount]<=amount else -1
-              
-    
+        '''
+        at each point i can select from range(i,n) coins to select
+        to make up the amount
+        subproblem: given index i, what is the min no. of coins that can
+        be taken to make up the amount
+        parameters: i, currAmt/remAmt
+        dp state: (i, currAmt)
+        choices:
+        for i in range(i,len(coins)):
+            if currAmt+coins[i]<amount:
+                minCoins = min(minCoins, dfs(i+1, currAmt+coins[i]))
+        base case: currAmt = amount: minCoins = 0
+        i>len(coins), minCoins
+        '''
+
+        memo = {}
+
+        def dfs(currAmt):
+            if currAmt == amount:
+                return 0
+            # if i >=len(coins):
+            #     return float('inf')
+
+            if currAmt in memo:
+                return memo[currAmt]
+                
+            # pick coin
+            nCoins = float('inf')
+            for j in range(len(coins)):
+                if currAmt + coins[j] <= amount:
+                    nCoins = min(nCoins, 1+dfs(currAmt+coins[j]))
+                
+            memo[currAmt] = nCoins
+
+            return nCoins
+        minC= dfs(0)
+        return minC if minC!=float('inf') else -1
