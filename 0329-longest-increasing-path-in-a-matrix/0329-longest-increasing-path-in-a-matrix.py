@@ -21,7 +21,7 @@ class Solution:
             if (r,c) in memo:
                 return memo[(r,c)]
             #traverse to neighbors
-            longestPath = 0
+            longestPath = 1
             for dr, dc in neighbors:
                 nr, nc = dr+r, dc + c
                 if (0<=nr<M and 0<=nc<N and 
@@ -32,5 +32,5 @@ class Solution:
         lp = 0
         for r in range(M):
             for c in range(N):
-                lp = max(lp,1+dfs(r,c))
+                lp = max(lp,dfs(r,c))
         return lp
