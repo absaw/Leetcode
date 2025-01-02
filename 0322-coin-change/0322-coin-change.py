@@ -6,14 +6,15 @@ class Solution:
         to make up the amount
         subproblem: given index i, what is the min no. of coins that can
         be taken to make up the amount
-        parameters: i, currAmt/remAmt
-        dp state: (i, currAmt)
+        parameters: currAmt/remAmt
+        dp state: (currAmt)
         choices:
         for i in range(i,len(coins)):
             if currAmt+coins[i]<amount:
                 minCoins = min(minCoins, dfs(i+1, currAmt+coins[i]))
         base case: currAmt = amount: minCoins = 0
         i>len(coins), minCoins
+        i don't need to keep track of i, since that is taken care of by the for loop itself
         '''
 
         memo = {}
@@ -21,8 +22,6 @@ class Solution:
         def dfs(currAmt):
             if currAmt == amount:
                 return 0
-            # if i >=len(coins):
-            #     return float('inf')
 
             if currAmt in memo:
                 return memo[currAmt]
