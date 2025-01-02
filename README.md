@@ -28,6 +28,7 @@ Leetcode Submissions
 | [0392-is-subsequence](https://github.com/absaw/Leetcode/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/absaw/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/absaw/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/absaw/Leetcode/tree/master/0647-palindromic-substrings) |
@@ -345,6 +346,7 @@ Leetcode Submissions
 | [0416-partition-equal-subset-sum](https://github.com/absaw/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/absaw/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/absaw/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/absaw/Leetcode/tree/master/0518-coin-change-ii) |
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
@@ -455,6 +457,7 @@ Leetcode Submissions
 | [0093-restore-ip-addresses](https://github.com/absaw/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/absaw/Leetcode/tree/master/0113-path-sum-ii) |
 | [0212-word-search-ii](https://github.com/absaw/Leetcode/tree/master/0212-word-search-ii) |
+| [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Union Find
 |  |
