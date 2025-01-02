@@ -16,7 +16,8 @@ class Solution:
         take pos: dfs(i+1, target+nums[i]), i+1 since at each i we need to take the number only once
         take neg: dfs(i+1, target-nums[i])
         add both
-
+        TC: O(len of nums * sum of nums(all possible values of sum))
+        SC: same as TC
         '''
         memo = {}
         def dfs(i, currSum):
