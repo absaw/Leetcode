@@ -9,19 +9,19 @@ class Solution:
         if not root:
             return []
         queue = collections.deque()
+        queue.append(root)
         result = []
-        level = 0
-        queue.append([root,level])
-        # result.append([root.val])
-        # queue = 15,7
-        # res = [[3],[9,20],[15,7]]
         while queue:
-            element,el_level = queue.popleft()
-            if el_level>=len(result):
-                result.append([])
-            result[el_level].append(element.val)
-            #add neighbors to queue
-            for neighbor in [element.left,element.right]:
-                if neighbor:
-                    queue.append([neighbor,el_level+1])
+            qLen = len(queue)
+            level = []
+            for _ in range(qLen):
+                node = queue.popleft()
+                level.append(node.val)
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            if level:
+                result.append(level)
+
         return result
