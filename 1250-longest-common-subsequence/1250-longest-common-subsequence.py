@@ -2,23 +2,32 @@ class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         '''
         abcde
-           a   c   e 
-        a  1   1   2
- t1     b  1   1   2
-        c  1   2   2
-        d  1   2   2
-        e  1   2   3
+        i
+        xefacewwi
+        j
+        lcs = ace
+        if text1[i] == text2[j]: lcs = 1 + dfs(i+1,j+1)
+        else: lsc = max(dfs(i+1,j), dfs(i,j+1))
+        base case:
+            if i>len(text1) or j>len(text2): return 0
+        dp state: (i,j) : longest common subs from here
         '''
-        l1 = len(text1)
-        l2 = len(text2)
-        memo = [[0 for i in range(l2+1)] for j in range(l1+1)]
-        # print(memo)
-        for r in range(l1-1, -1, -1):
-            for c in range(l2-1, -1, -1):
-                if text1[r] == text2[c]:
-                    memo[r][c] = memo[r+1][c+1] + 1
-                else:
-                    memo[r][c] = max(memo[r+1][c], memo[r][c+1])
-                
-        return memo[0][0]
 
+        dp = {}
+
+        def dfs(i,j):
+            if i>=len(text1) or j>=len(text2):
+                return 0
+            
+            if (i,j) in dp:
+                return dp[(i,j)]
+            lcs = 0
+            #compute
+            if text1[i] == text2[j]:
+                lcs = 1 + dfs(i+1,j+1)
+            else:
+                lcs = max(dfs(i+1,j),dfs(i,j+1))
+            dp[(i,j)] = lcs
+            return lcs
+        return dfs(0,0)
+        
