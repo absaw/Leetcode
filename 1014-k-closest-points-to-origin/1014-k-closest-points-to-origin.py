@@ -1,13 +1,21 @@
+'''
+calc distances of all points
+minHeap to store [distance, (x,y)]
+pop till we have k points
+'''
+import heapq
 class Solution:
-    # O(nlogk solution)
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
-        maxHeap = []
         
+        def getDistance(x,y):
+            return math.sqrt(x**2+y**2)
+        
+        minHeap = []
+
         for x, y in points:
-            distance = -(x**2 + y**2)  # Use negative to simulate max-heap behavior
-            heapq.heappush(maxHeap, (distance, [x, y]))
-            
-            if len(maxHeap) > k:
-                heapq.heappop(maxHeap)  # Remove the farthest point
-        
-        return [point for _, point in maxHeap]
+            heapq.heappush(minHeap, [getDistance(x,y), [x,y]])
+        res = []
+        while len(res)<k:
+            res.append(heapq.heappop(minHeap)[1])
+
+        return res
