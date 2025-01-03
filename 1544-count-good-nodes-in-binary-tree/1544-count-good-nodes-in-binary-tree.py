@@ -7,20 +7,16 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         
-        self.result = 0
+        count = 0
 
-        def trav(root,max_value):
-
-            if not root:
-                return
-            
-            if root.val >= max_value:
-                max_value = root.val
-                self.result += 1
-            
-            trav(root.left,max_value)
-            trav(root.right,max_value)
-        
-        trav(root,root.val)
-
-        return self.result
+        def dfs(node,maxVal):
+            nonlocal count
+            if node.val >= maxVal:
+                count += 1
+                maxVal = max(node.val,maxVal)
+            if node.left:
+                dfs(node.left,maxVal)
+            if node.right:
+                dfs(node.right,maxVal)
+        dfs(root,root.val)
+        return count
