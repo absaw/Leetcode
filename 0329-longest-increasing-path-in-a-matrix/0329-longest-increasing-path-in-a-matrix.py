@@ -12,10 +12,11 @@ class Solution:
             # neighbors
             for dr, dc in n:
                 nr, nc = dr+r, dc+c
-                if (nr in range(M) and 
-                    nc in range(N) and
-                    matrix[r][c]<matrix[nr][nc]):
-                    longestPath = max(longestPath, 1+dfs(nr,nc))
+                if (nr not in range(M) or 
+                    nc not in range(N) or
+                    matrix[r][c]>=matrix[nr][nc]):
+                    continue
+                longestPath = max(longestPath, 1+dfs(nr,nc))
             dp[(r,c)] = longestPath
             return longestPath
         for r in range(M):
