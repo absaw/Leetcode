@@ -1,45 +1,36 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         '''
-        recursion: no. of operations required from any particular pair of indices
-        w1 = horse
-             i
-        w2 = ros
-             j
-        3 possibilites
-        if w1[i] == w2[j], nOperations stays same
-        else
-            nOp += 1
-            insert
-            i stays same, j += 1
-            replace
-            i+=1, j+= 1
-            remove
-            i+=1, j same
-        dp = (i,j)  - nOperations from this point
-        '''
-
-        memo = {}
-
-        def dfs(i,j):
-
-            if i == len(word1):
-                return len(word2)-j
-            if j==len(word2):
-                return len(word1)-i
-            # if (i>=len(word1) and j<len(word2)) or (i<len(word1) and j>=len(word2)):
-            #     return 1
-
+        if word1[i] == word2[j]: ops = dfs(i+1,j+1)
+        else:
+            insert : ops1 =1+ dfs(i,j+1)
+            delete: ops2 = 1+ dfs(i+1,j)
+            replace: ops2  = 1+dfs(i+1,j+1)
+            ops = min(op1,ops2,ops3)
+        base case:
+            i == len(word1):
+                return len(word2) - j
+            j == len(word2):
+                return len(word1) - i
             
-            if (i,j) in memo:
-                return memo[(i,j)]
-            nOperations = float('inf')
-            if word1[i] == word2[j]:
-                nOperations = dfs(i+1,j+1)
+        '''
+        dp = {}
+        m = len(word1)
+        n = len(word2)
+        # if m == 0 
+        def dfs(i,j):
+            if i == m:
+                return n-j
+            if j == n:
+                return m-i
+            
+            if (i,j) in dp:
+                return dp[(i,j)]
+            ops = 0
+            if word1[i]==word2[j]:
+                ops = dfs(i+1,j+1)
             else:
-                # insert,
-                nOperations = min(1+dfs(i,j+1),1+dfs(i+1,j), 1+dfs(i+1,j+1))
-
-            memo[(i,j)] = nOperations
-            return nOperations
+                ops = min(1+dfs(i,j+1), 1+ dfs(i+1,j), 1+dfs(i+1,j+1))
+            dp[(i,j)] = ops
+            return ops
         return dfs(0,0)
