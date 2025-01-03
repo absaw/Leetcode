@@ -1,22 +1,23 @@
 import heapq
+'''
+minheap of size k, 
+init: pop elements till we have only k in heap
+on add: push into heap. if heap is greater than k, pop untill we have k
+'''
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
-        self.minHeap = nums
-        self.capacity = k
-        heapq.heapify(self.minHeap)
-        while len(self.minHeap)>self.capacity:
-            heapq.heappop(self.minHeap)
-        
+        self.nums=nums
+        self.k = k
+        heapq.heapify(self.nums)
+        while len(self.nums)>k:
+            heapq.heappop(self.nums)
+
     def add(self, val: int) -> int:
-        
-        if len(self.minHeap)==self.capacity and val>self.minHeap[0]:
-            heapq.heappushpop(self.minHeap,val)
-        elif len(self.minHeap)<self.capacity:
-            heapq.heappush(self.minHeap,val)
-
-        return self.minHeap[0]
-
+        heapq.heappush(self.nums,val)
+        if len(self.nums)>self.k:
+            heapq.heappop(self.nums)
+        return self.nums[0]
 
 
 # Your KthLargest object will be instantiated and called as such:
