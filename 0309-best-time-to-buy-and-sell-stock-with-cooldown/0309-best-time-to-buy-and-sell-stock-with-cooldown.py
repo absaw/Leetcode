@@ -1,39 +1,30 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         '''
-        at each point, i have 3 options
-        buy, sell, cooldown
-        essentially just 2 - buy and cool or sell and cool
-        buy : dfs(i+1,sell) - prices[i]
-        sell: dfs(i+2,buy) + prices[i]
-        cooldown: dfs(i+1,sameAsBefore), profit remains same 
-        cause I only can buy or sell at a time
-        subproblem: at any particular point i in the array, what is the max
-        profit that can be made
-        base case - i >= len(prices) , maxProfit = 0
-        defining state: i, wether can buy or sell at that point, cause that
-        determines the decisions that can be taken
+        recursion: at each point i, i can either buy/cooldown, sell/cooldown
+        subproblem: from given point, i , what is the max profit that can be generated
+        buy: curr - prices[i] : dfs(i+1,)
+        cool
+
+        sell: curr+prices[i]
+        cool
+        param: i, currProfit, canBuy
+        base case: i>= len (prices) : maxProfit = 0
         '''
         dp = {}
-        # maxProfit = 0
-        def dfs(i, buying):
+
+        def dfs(i, canBuy):
 
             if i>=len(prices):
                 return 0
-
-            if (i,buying) in dp:
-                return dp[(i,buying)]
-            maxProfit = 0
-            if buying:
-                buyProfit = dfs(i+1, False)-prices[i]
-                cooldownProfit = dfs(i+1, buying)
-                maxProfit = max(buyProfit, cooldownProfit)
+            
+            if (i,canBuy) in dp:
+                return dp[(i,canBuy)]
+            maxP =0
+            if canBuy:
+                maxP =max(dfs(i+1,False) - prices[i] , dfs(i+1,canBuy))
             else:
-                sellProfit = dfs(i+2, True)+prices[i]
-                cooldownProfit = dfs(i+1, buying)
-                maxProfit = max(sellProfit, cooldownProfit)
-            dp[(i,buying)] = maxProfit
-            return maxProfit
-        # dfs(0, True)
-
-        return dfs(0, True)
+                maxP = max(dfs(i+2,True)+prices[i], dfs(i+1, canBuy))
+            dp[(i,canBuy)] = maxP
+            return maxP
+        return dfs(0,True)
