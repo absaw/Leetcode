@@ -1,12 +1,9 @@
-'''
-minHeap: stores all nums
-keep popping until only k elements remain
-'''
-import heapq
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        minHeap = []
+        for n in nums:
+            heapq.heappush(minHeap,n)
+            if len(minHeap)>k:
+                heapq.heappop(minHeap)
         
-        heapq.heapify(nums)
-        while len(nums)>k:
-            heapq.heappop(nums)
-        return nums[0]
+        return minHeap[0]
