@@ -112,6 +112,7 @@ Leetcode Submissions
 | [0424-longest-repeating-character-replacement](https://github.com/absaw/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/absaw/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/absaw/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -365,6 +366,7 @@ Leetcode Submissions
 | [0518-coin-change-ii](https://github.com/absaw/Leetcode/tree/master/0518-coin-change-ii) |
 | [0529-minesweeper](https://github.com/absaw/Leetcode/tree/master/0529-minesweeper) |
 | [0542-01-matrix](https://github.com/absaw/Leetcode/tree/master/0542-01-matrix) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/absaw/Leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0733-flood-fill](https://github.com/absaw/Leetcode/tree/master/0733-flood-fill) |
@@ -416,6 +418,7 @@ Leetcode Submissions
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/absaw/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 | [0883-car-fleet](https://github.com/absaw/Leetcode/tree/master/0883-car-fleet) |
 | [0948-sort-an-array](https://github.com/absaw/Leetcode/tree/master/0948-sort-an-array) |
@@ -564,6 +567,7 @@ Leetcode Submissions
 | [0134-gas-station](https://github.com/absaw/Leetcode/tree/master/0134-gas-station) |
 | [0409-longest-palindrome](https://github.com/absaw/Leetcode/tree/master/0409-longest-palindrome) |
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 ## String Matching
 |  |
@@ -586,6 +590,7 @@ Leetcode Submissions
 | [0169-majority-element](https://github.com/absaw/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/absaw/Leetcode/tree/master/0383-ransom-note) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 ## Stack
 |  |
@@ -623,6 +628,7 @@ Leetcode Submissions
 | [0239-sliding-window-maximum](https://github.com/absaw/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/absaw/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/absaw/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/absaw/Leetcode/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
