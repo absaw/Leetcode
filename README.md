@@ -255,6 +255,7 @@ Leetcode Submissions
 | [0794-swim-in-rising-water](https://github.com/absaw/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/absaw/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/absaw/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Binary Tree
 |  |
 | ------- |
@@ -387,6 +388,7 @@ Leetcode Submissions
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Math
 |  |
@@ -427,6 +429,7 @@ Leetcode Submissions
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -641,6 +644,7 @@ Leetcode Submissions
 | [0948-sort-an-array](https://github.com/absaw/Leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/absaw/Leetcode/tree/master/1127-last-stone-weight) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Bucket Sort
 |  |
@@ -737,4 +741,8 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/absaw/Leetcode/tree/master/0062-unique-paths) |
+## Line Sweep
+|  |
+| ------- |
+| [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
