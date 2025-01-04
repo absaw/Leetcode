@@ -33,13 +33,13 @@ class Solution:
         # return res
        
         adj = defaultdict(list)
-        for src, dst in sorted(tickets)[::-1]:
+        for src, dst in sorted(tickets):
             adj[src].append(dst)
 
         res = []
         def dfs(src):
             while adj[src]:
-                dst = adj[src].pop()
+                dst = adj[src].pop(0)
                 dfs(dst)
             res.append(src)
             
