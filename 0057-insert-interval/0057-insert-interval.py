@@ -1,19 +1,38 @@
+'''
+loop through intervals
+
+a    b
+   x    y
+
+     a     b
+   x    y
+
+ab x    y
+   
+   x    y a b
+
+before: insert it at that index, return result
+after: insert it at end
+intersection: 
+'''
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
-        newStart,newEnd = newInterval
-        i = 0
-        res = []
-        for currStart, currEnd in intervals:
-            
-            if newEnd < currStart:
-                res.append([newStart,newEnd])
-                res = res + intervals[i:]
-                return res
-            if newStart in range(currStart,currEnd+1) or newEnd in range(currStart,currEnd+1):
-                newStart,newEnd = [min(currStart,newStart),max(currEnd,newEnd)]
-            if newStart > currStart:
-                res.append([currStart,currEnd])
-            i += 1
+        a , b = newInterval
+        result = []
+        for i in range(len(intervals)):
 
-        res.append([newStart,newEnd])
-        return res
+            x, y = intervals[i]
+
+            if b < x :
+                result.append([a,b])
+                result+= intervals[i:]
+                return result
+            elif (x<=a <=y or x<=b<=y):
+                a = min(a,x)
+                b = max(b,y)
+            elif (a>x):
+                result.append([x,y])
+            
+        result.append([a,b])
+
+        return result
