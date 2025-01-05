@@ -1,27 +1,23 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         
-        result = []
+        left = 0
+        right = 0
         stack = []
-        openN = 0
-        closeN = 0
-        def backTrack(openN,closeN):
+        result = []
 
-            if openN == n and closeN == n:
+        def dfs(left, right):
+            if left == n and right == n:
                 result.append("".join(stack))
-                return
-            # branch for adding open bracket
-
-            if openN < n:
+                return             
+            if left < n:
                 stack.append("(")
-                backTrack(openN+1,closeN)
+                dfs(left+1,right)
                 stack.pop()
-            
-            # branch for adding close bracket
 
-            if closeN < openN:
+            if right < left:
                 stack.append(")")
-                backTrack(openN,closeN+1)
+                dfs(left,right+1)
                 stack.pop()
-        backTrack(0,0)
+        dfs(0,0)
         return result
