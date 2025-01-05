@@ -1,17 +1,20 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        result = [1]*len(nums)
-
-        prefix = 1
-
-        for i in range(1,len(nums)):
-            prefix *= nums[i-1]
-            result[i] = prefix
+        n = len(nums)
+        result = [1] * n
+    
+        # 1, 2,  3,  4
+        # 1  1   2   6
+        # 24 12  4   1
+        #    12   8  6
+        for i in range(1, n):
+            result[i] = result[i-1]*nums[i-1]
         
-        postfix = 1
-
-        for i in range(len(nums)-2,-1,-1):
-            postfix *= nums[i+1]
-            result[i] *= postfix 
+        # calculate postfix
+        post = 1
+        for i in range(n-2,-1,-1):
+            post = post*nums[i+1]
+            result[i] = result[i]*post
         
         return result
+
