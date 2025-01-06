@@ -37,13 +37,13 @@ class Solution:
                 break
             if nums[mid] >= nums[l]:
                 # large sorted section
-                if target in range(nums[l],nums[mid]+1):
+                if nums[l]<=target <= nums[mid]:
                     r = mid-1
                 else:
                     l = mid+1
             else:
                 #small sorted section
-                if target in range(nums[mid],nums[r]+1):
+                if nums[mid]<=target<=nums[r]:
                     l = mid+1
                 else:
                     r = mid-1
