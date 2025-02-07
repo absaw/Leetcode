@@ -121,6 +121,7 @@ Leetcode Submissions
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## String
 |  |
 | ------- |
@@ -395,6 +396,7 @@ Leetcode Submissions
 | [1927-maximum-ascending-subarray-sum](https://github.com/absaw/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Math
 |  |
 | ------- |
@@ -688,6 +690,7 @@ Leetcode Submissions
 | [0289-game-of-life](https://github.com/absaw/Leetcode/tree/master/0289-game-of-life) |
 | [0412-fizz-buzz](https://github.com/absaw/Leetcode/tree/master/0412-fizz-buzz) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Hash Function
 |  |
 | ------- |
