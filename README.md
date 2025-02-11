@@ -166,6 +166,7 @@ Leetcode Submissions
 | [1023-time-based-key-value-store](https://github.com/absaw/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Tree
 |  |
 | ------- |
@@ -623,6 +624,7 @@ Leetcode Submissions
 | [0496-next-greater-element-i](https://github.com/absaw/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/absaw/Leetcode/tree/master/0883-car-fleet) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Design
 |  |
 | ------- |
@@ -693,6 +695,7 @@ Leetcode Submissions
 | [0054-spiral-matrix](https://github.com/absaw/Leetcode/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/absaw/Leetcode/tree/master/0289-game-of-life) |
 | [0412-fizz-buzz](https://github.com/absaw/Leetcode/tree/master/0412-fizz-buzz) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Hash Function
