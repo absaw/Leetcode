@@ -418,6 +418,7 @@ Leetcode Submissions
 | [0412-fizz-buzz](https://github.com/absaw/Leetcode/tree/master/0412-fizz-buzz) |
 | [1014-k-closest-points-to-origin](https://github.com/absaw/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [2448-count-number-of-bad-pairs](https://github.com/absaw/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/absaw/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Sorting
 |  |
 | ------- |
@@ -501,6 +502,7 @@ Leetcode Submissions
 | [0212-word-search-ii](https://github.com/absaw/Leetcode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/absaw/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Union Find
 |  |
 | ------- |
