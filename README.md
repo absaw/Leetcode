@@ -396,6 +396,7 @@ Leetcode Submissions
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/absaw/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/absaw/Leetcode/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2448-count-number-of-bad-pairs](https://github.com/absaw/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -502,6 +503,7 @@ Leetcode Submissions
 | [0212-word-search-ii](https://github.com/absaw/Leetcode/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/absaw/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/absaw/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Union Find
 |  |
