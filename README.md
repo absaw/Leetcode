@@ -168,6 +168,7 @@ Leetcode Submissions
 | [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/absaw/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Tree
 |  |
 | ------- |
@@ -504,6 +505,7 @@ Leetcode Submissions
 | [0494-target-sum](https://github.com/absaw/Leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/absaw/Leetcode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/absaw/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/absaw/Leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Union Find
 |  |
@@ -596,6 +598,7 @@ Leetcode Submissions
 | [0435-non-overlapping-intervals](https://github.com/absaw/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/absaw/Leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/absaw/Leetcode/tree/master/0778-reorganize-string) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/absaw/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## String Matching
 |  |
 | ------- |
@@ -632,6 +635,7 @@ Leetcode Submissions
 | [0739-daily-temperatures](https://github.com/absaw/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/absaw/Leetcode/tree/master/0883-car-fleet) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2456-construct-smallest-number-from-di-string](https://github.com/absaw/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Design
 |  |
 | ------- |
