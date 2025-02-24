@@ -200,6 +200,7 @@ Leetcode Submissions
 | [0572-subtree-of-another-tree](https://github.com/absaw/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/absaw/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -241,6 +242,7 @@ Leetcode Submissions
 | [0803-cheapest-flights-within-k-stops](https://github.com/absaw/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0854-making-a-large-island](https://github.com/absaw/Leetcode/tree/master/0854-making-a-large-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -403,6 +405,7 @@ Leetcode Submissions
 | [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2448-count-number-of-bad-pairs](https://github.com/absaw/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/absaw/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Math
@@ -483,6 +486,7 @@ Leetcode Submissions
 | [0854-making-a-large-island](https://github.com/absaw/Leetcode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Database
 |  |
 | ------- |
@@ -556,6 +560,7 @@ Leetcode Submissions
 | [0744-network-delay-time](https://github.com/absaw/Leetcode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/absaw/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Two Pointers
 |  |
 | ------- |
