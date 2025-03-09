@@ -411,6 +411,7 @@ Leetcode Submissions
 | [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Math
 |  |
 | ------- |
@@ -599,6 +600,7 @@ Leetcode Submissions
 | [0239-sliding-window-maximum](https://github.com/absaw/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/absaw/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
+| [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Greedy
 |  |
 | ------- |
