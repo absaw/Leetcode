@@ -121,6 +121,7 @@ Leetcode Submissions
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/absaw/Leetcode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1023-time-based-key-value-store](https://github.com/absaw/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/absaw/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2448-count-number-of-bad-pairs](https://github.com/absaw/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
@@ -169,6 +170,7 @@ Leetcode Submissions
 | [1023-time-based-key-value-store](https://github.com/absaw/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/absaw/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/absaw/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/absaw/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/absaw/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/absaw/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/absaw/Leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -600,6 +602,7 @@ Leetcode Submissions
 | [0239-sliding-window-maximum](https://github.com/absaw/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/absaw/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/absaw/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Greedy
 |  |
