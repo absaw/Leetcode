@@ -54,6 +54,7 @@ Leetcode Submissions
 | [0338-counting-bits](https://github.com/absaw/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/absaw/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/absaw/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Linked List
 |  |
 | ------- |
@@ -416,6 +417,7 @@ Leetcode Submissions
 | [2690-house-robber-iv](https://github.com/absaw/Leetcode/tree/master/2690-house-robber-iv) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/absaw/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Math
@@ -607,6 +609,7 @@ Leetcode Submissions
 | [0424-longest-repeating-character-replacement](https://github.com/absaw/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/absaw/Leetcode/tree/master/0567-permutation-in-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/absaw/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Greedy
 |  |
@@ -711,6 +714,7 @@ Leetcode Submissions
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/absaw/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [1694-make-sum-divisible-by-p](https://github.com/absaw/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/absaw/Leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Doubly-Linked List
 |  |
@@ -768,6 +772,7 @@ Leetcode Submissions
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/absaw/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
