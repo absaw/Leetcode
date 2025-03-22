@@ -249,6 +249,7 @@ Leetcode Submissions
 | [0854-making-a-large-island](https://github.com/absaw/Leetcode/tree/master/0854-making-a-large-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/absaw/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -502,6 +503,7 @@ Leetcode Submissions
 | [1036-rotting-oranges](https://github.com/absaw/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/absaw/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/absaw/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Database
 |  |
 | ------- |
@@ -539,6 +541,7 @@ Leetcode Submissions
 | [0794-swim-in-rising-water](https://github.com/absaw/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/absaw/Leetcode/tree/master/0854-making-a-large-island) |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
+| [2793-count-the-number-of-complete-components](https://github.com/absaw/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/absaw/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Matrix
 |  |
@@ -577,6 +580,7 @@ Leetcode Submissions
 | [0803-cheapest-flights-within-k-stops](https://github.com/absaw/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1706-min-cost-to-connect-all-points](https://github.com/absaw/Leetcode/tree/master/1706-min-cost-to-connect-all-points) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/absaw/Leetcode/tree/master/2564-most-profitable-path-in-a-tree) |
+| [2793-count-the-number-of-complete-components](https://github.com/absaw/Leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/absaw/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 ## Two Pointers
 |  |
