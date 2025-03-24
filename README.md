@@ -419,6 +419,7 @@ Leetcode Submissions
 | [2690-house-robber-iv](https://github.com/absaw/Leetcode/tree/master/2690-house-robber-iv) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/absaw/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/absaw/Leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3430-count-days-without-meetings](https://github.com/absaw/Leetcode/tree/master/3430-count-days-without-meetings) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/absaw/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/absaw/Leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/absaw/Leetcode/tree/master/3483-alternating-groups-ii) |
@@ -468,6 +469,7 @@ Leetcode Submissions
 | [1798-max-number-of-k-sum-pairs](https://github.com/absaw/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/absaw/Leetcode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/absaw/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [3430-count-days-without-meetings](https://github.com/absaw/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Breadth-First Search
 |  |
 | ------- |
